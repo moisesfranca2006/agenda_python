@@ -14,3 +14,4 @@ media=soma/media
 #print(elemento, soma, media)
     
 print(soma, media)
+ 
