@@ -19,5 +19,8 @@ def pesquisar(vetor, nomeBusca):
         return posicao
     else:
         return -1
-      
-                
+def listar(vetor):
+    for elemento in vetor:
+         print(f"""{elemento['nome']}-
+                  {elemento['email']}-
+                  {elemento['telefone']}""")
